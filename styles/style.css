@@ -1,0 +1,146 @@
+* {
+  font-family: "Inter";
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 150%;
+  background-color: #f3f5fc;
+}
+
+header > img {
+  width: 31.09px;
+  height: 48px;
+  position: absolute;
+  left: 4.5%;
+  top: 4%;
+}
+
+main {
+  display: flex;
+  flex-direction: row;
+  padding-top: 5vh;
+  height: 95vh;
+}
+
+.textArea {
+  border: none;
+  color: #0a3871;
+  text-transform: lowercase;
+  padding-top: 15%;
+}
+::placeholder {
+  color: #0a3871;
+}
+.textArea:focus {
+  outline: none;
+}
+
+.encriptar {
+  height: 85vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 20px 20px 20px 15vw;
+  width: 75vw;
+  box-sizing: border-box;
+}
+
+.d-msg {
+  background-color: transparent;
+  width: 100%;
+}
+
+.msg-noEncontrado {
+  font-weight: 700;
+  font-size: 29px;
+  line-height: 120%;
+  text-align: center;
+  margin-bottom: 8px;
+}
+
+.msg-info {
+  font-size: 16px;
+  line-height: 150%;
+  text-align: center;
+}
+
+.desencriptar {
+  height: 85vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #fff;
+  border-radius: 24px;
+  padding: 20px;
+  width: 20vw;
+  right: 3vw;
+  justify-content: center;
+  box-sizing: border-box;
+}
+
+.desencriptarContainer {
+  background: transparent;
+}
+
+.msgEncriptado {
+  display: none;
+  background-color: transparent;
+  border: none;
+  color: #0a3871;
+  width: 100%;
+}
+.msgEncriptado:focus {
+  outline: none;
+}
+
+.displayInfo {
+  display: flex;
+  align-items: center;
+}
+
+.displayInfo > img {
+  height: 16px;
+  margin: 8px;
+}
+
+.info {
+  color: #495057;
+  font-size: 18px;
+}
+
+.buttons {
+  display: flex;
+  margin-top: 18px;
+}
+
+.btnEncriptar {
+  background-color: #0a3871;
+  border: 1px solid #0a3871;
+  border-radius: 24px;
+  color: #fff;
+  cursor: pointer;
+  height: 67px;
+  width: 328px;
+}
+
+.btnDesencriptar {
+  background-color: #d8dfe8;
+  border: 1px solid #0a3871;
+  border-radius: 24px;
+  color: #0a3871;
+  cursor: pointer;
+  height: 67px;
+  width: 328px;
+  margin-left: 30px;
+}
+
+.btnCopiar {
+  display: none;
+  border: 1px solid #0a3871;
+  background-color: #fff;
+  border-radius: 24px;
+  color: #0a3871;
+  cursor: pointer;
+  height: 67px;
+  width: 90%;
+  bottom: 20px;
+}
